@@ -15,4 +15,35 @@ body{
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+}
+
+p{
+    padding-bottom: 2rem;
+}
+
+
+.box{
+    background-color: aquamarine;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 3rem 1rem ;
+    gap: 1rem;
+}
+
+
+.elements{
+    background: orangered;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+.elements:hover{
+    background: yellowgreen;
+}
+
+a:hover{
+    color: blue;
 }
